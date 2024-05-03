@@ -27,6 +27,14 @@
                     <i class="fas fa-toggle-off"></i>
                     <span>Saklar</span></a>
             </li>
+
+            <!-- Nav Item - Temperature -->
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('temperatures') }}">
+                    <i class="fas fa-temperature-low"></i>
+                    <span>Monitoring Temperature</span></a>
+            </li>
+
             <!-- Nav Item - Device -->
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('device') }}">
